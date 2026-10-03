@@ -1,3 +1,9 @@
+- number: "00"
+  title: "After the Two 9-11s"
+  description: "Samfunds- og politisk filosofi om tiden efter 1989 og 2001 med fokus på historiens afslutning, kultur, anerkendelse og vold."
+  cover: "/uploads/cover-00.jpg"
+  pdf: "/uploads/00 - After the Two 9-11s.pdf"
+  tags: ["Politisk filosofi", "Ideologi", "Anerkendelse", "Kultur", "Vold"]
 - number: "01"
   title: "Beskaffenheden og værdien af personlig autonomi / Moralsk status"
   description: "Et filosofisk arbejde om personlig autonomi, dens værdi og spørgsmål om moralsk status."
