@@ -14,6 +14,8 @@ sections:
         Denne hjemmeside er min samlede faglige og personlige platform. Her samler jeg akademisk arbejde, undervisningsmateriale, foredrag og formidling, Tankemylder, Birds With Apps, CV og kontakt.
 
         Siden udbygges løbende.
+
+        {{< home_portrait >}}
     design:
       columns: '1'
 ---
