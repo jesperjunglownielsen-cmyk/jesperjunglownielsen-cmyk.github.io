@@ -10,7 +10,7 @@
         <img class="academic-cover" src="{{ .cover | safeURL }}" alt="Forside til {{ .title }}" loading="lazy" width="640" height="905">
       </a>
       <div class="academic-card-body">
-        <div class="academic-number">Værk {{ .number }}</div>
+        <div class="academic-number">{{ with .label }}{{ . }}{{ else }}Værk {{ .number }}{{ end }}</div>
         <h2 class="academic-title">{{ .title }}</h2>
         <p class="academic-description">{{ .description }}</p>
         <div class="academic-tags" aria-label="Emner">
