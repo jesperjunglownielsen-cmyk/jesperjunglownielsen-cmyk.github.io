@@ -154,3 +154,9 @@
   cover: "/uploads/cover-25.jpg"
   pdf: "/uploads/Bog 25 - Studietiden.docx.pdf"
   tags: ["Studietid", "Filosofi", "Filosofihistorie", "Etik", "Akademisk arbejde"]
+- label: "Speciale · 2012"
+  title: "Autonomi, Etik & Sygepleje - En filosofisk analyse og diskussion om forholdet mellem autonomi og etik i sygeplejen"
+  description: "Kandidatspeciale i filosofi fra Aarhus Universitet om autonomi og etik i sygeplejen med fokus på personlig autonomi, paternalisme, omsorg og professionsetisk beslutningstagning."
+  cover: "/uploads/cover-speciale.jpg"
+  pdf: "/uploads/Speciale samlet.pdf"
+  tags: ["Autonomi", "Etik", "Sygepleje", "Professionsetik", "Omsorg"]
