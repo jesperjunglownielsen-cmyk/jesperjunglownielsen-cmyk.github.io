@@ -14,15 +14,22 @@ main:
   - name: Foredrag & formidling
     url: /foredrag-formidling/
     weight: 50
+  - name: Andet
+    identifier: andet
+    weight: 60
   - name: Tankemylder
     url: /tankemylder/
-    weight: 60
+    parent: andet
+    weight: 10
   - name: Birds With Apps
     url: /birds-with-apps/
-    weight: 70
+    parent: andet
+    weight: 20
   - name: CV
     url: /cv/
-    weight: 80
+    parent: andet
+    weight: 30
   - name: Kontakt
     url: /kontakt/
-    weight: 90
+    parent: andet
+    weight: 40
