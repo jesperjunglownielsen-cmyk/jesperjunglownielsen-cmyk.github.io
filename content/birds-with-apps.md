@@ -8,9 +8,11 @@ sections:
     content:
       title: 'Birds With Apps'
       text: |-
-        Her præsenterer jeg Birds With Apps og relevante apps og digitale projekter.
+        Birds With Apps er mit projekt/studio for apps og andre digitale projekter og har sin egen identitet ved siden af denne personlige hjemmeside.
 
-        Sektionen kommer også til at linke videre til Birds With Apps' egen hjemmeside og de enkelte projekter.
+        [Birds With Apps på GitHub](https://github.com/BirdsWithApps)
+
+        Den eksisterende Birds With Apps-hjemmeside er i øjeblikket ikke tilgængelig stabilt, så jeg linker ikke besøgende videre til en fejlende side. Link til hjemmesiden og de enkelte apps kan tilføjes her, når de er online.
     design:
       columns: '1'
 ---

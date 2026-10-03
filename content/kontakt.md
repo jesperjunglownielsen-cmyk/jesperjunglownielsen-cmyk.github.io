@@ -8,9 +8,12 @@ sections:
     content:
       title: 'Kontakt'
       text: |-
-        Her kommer mine relevante kontaktoplysninger.
+        Du er velkommen til at kontakte mig om faglige spørgsmål, samarbejde og projekter.
 
-        Der tilføjes ikke formularer, tracking eller andre unødvendige eksterne tjenester.
+        **E-mail:** [jesperjunglownielsen@gmail.com](mailto:jesperjunglownielsen@gmail.com)  
+        **LinkedIn:** [linkedin.com/in/junglow](https://www.linkedin.com/in/junglow)
+
+        Der bruges ingen kontaktformular, tracking eller ekstern database. Kontakt foregår direkte via e-mail eller LinkedIn.
     design:
       columns: '1'
 ---
