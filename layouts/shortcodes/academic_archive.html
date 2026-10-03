@@ -1,6 +1,6 @@
-<div class="academic-archive" data-academic-archive>
+<div class="academic-archive" data-academic-archive data-total="{{ len site.Data.academic_books }}">
   <div class="academic-toolbar" aria-label="Filtrering af publikationer">
-    <button class="academic-filter academic-filter--active" type="button" data-filter-all>Alle 25 værker</button>
+    <button class="academic-filter academic-filter--active" type="button" data-filter-all>Alle {{ len site.Data.academic_books }} værker</button>
     <span class="academic-filter-status" data-filter-status aria-live="polite">Viser alle værker</span>
   </div>
   <div class="academic-grid">
@@ -34,5 +34,5 @@
 .academic-grid{gap:2.8rem 2.4rem}
 </style>
 <script>
-(()=>{const root=document.querySelector('[data-academic-archive]');if(!root||root.dataset.ready)return;root.dataset.ready='true';const cards=[...root.querySelectorAll('[data-academic-card]')],all=root.querySelector('[data-filter-all]'),status=root.querySelector('[data-filter-status]'),tags=[...root.querySelectorAll('[data-filter-tag]')];const showAll=()=>{cards.forEach(c=>c.hidden=false);tags.forEach(b=>b.classList.remove('academic-tag--active'));all.classList.add('academic-filter--active');status.textContent='Viser alle 25 værker'};const filterBy=tag=>{let visible=0;cards.forEach(c=>{const match=c.dataset.tags.split('|').includes(tag);c.hidden=!match;if(match)visible++});tags.forEach(b=>b.classList.toggle('academic-tag--active',b.dataset.filterTag===tag));all.classList.remove('academic-filter--active');status.textContent=`${visible} ${visible===1?'værk':'værker'} om “${tag}”`;root.scrollIntoView({behavior:'smooth',block:'start'})};all.addEventListener('click',showAll);tags.forEach(b=>b.addEventListener('click',()=>filterBy(b.dataset.filterTag)))})();
+(()=>{const root=document.querySelector('[data-academic-archive]');if(!root||root.dataset.ready)return;root.dataset.ready='true';const cards=[...root.querySelectorAll('[data-academic-card]')],all=root.querySelector('[data-filter-all]'),status=root.querySelector('[data-filter-status]'),tags=[...root.querySelectorAll('[data-filter-tag]')];const showAll=()=>{cards.forEach(c=>c.hidden=false);tags.forEach(b=>b.classList.remove('academic-tag--active'));all.classList.add('academic-filter--active');status.textContent=`Viser alle ${root.dataset.total} værker`};const filterBy=tag=>{let visible=0;cards.forEach(c=>{const match=c.dataset.tags.split('|').includes(tag);c.hidden=!match;if(match)visible++});tags.forEach(b=>b.classList.toggle('academic-tag--active',b.dataset.filterTag===tag));all.classList.remove('academic-filter--active');status.textContent=`${visible} ${visible===1?'værk':'værker'} om “${tag}”`;root.scrollIntoView({behavior:'smooth',block:'start'})};all.addEventListener('click',showAll);tags.forEach(b=>b.addEventListener('click',()=>filterBy(b.dataset.filterTag)))})();
 </script>
