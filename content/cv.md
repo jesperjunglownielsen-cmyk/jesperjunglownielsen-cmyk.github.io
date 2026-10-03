@@ -57,7 +57,7 @@ sections:
         **Psyched Up Janis · 2009 – nu**  
         Strategisk og praktisk medvirken i udgivelses- og turnéarbejde, herunder digitalisering af bagkatalog, kommunikation, merchandise og koncertoptagelser.
 
-        CV'et bygger på min seneste CV-version fra 2026. Kontaktoplysninger og telefonnummer er bevidst ikke medtaget her uden særskilt godkendelse til offentliggørelse.
+        CV'et bygger på min seneste [CV-version fra 2026](https://www.linkedin.com/in/junglow/).
     design:
       columns: '1'
 ---
